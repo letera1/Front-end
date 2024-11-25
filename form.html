@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Information Form</title>
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body class="main-body">
+    <div class="form-container">
+      <h2>Personal Information Form</h2>
+      <form action="submit_form.php" method="POST">
+        <div class="form-group">
+          <label for="full-name">Full Name:</label>
+          <input
+            type="text"
+            id="full-name"
+            name="full-name"
+            placeholder="Enter your full name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required />
+        </div>
+
+        <div class="form-group">
+          <label>Gender:</label>
+          <div class="inline-group">
+            <input type="radio" id="male" name="gender" value="male" required />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other" />
+            <label for="other">Other</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="marital-status">Marital Status:</label>
+          <select id="marital-status" name="marital-status" required>
+            <option value="">Select</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="divorced">Divorced</option>
+            <option value="widowed">Widowed</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <textarea
+            id="address"
+            name="address"
+            rows="3"
+            placeholder="Enter your address"
+            required
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="e.g. +1234567890"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="occupation">Occupation:</label>
+          <input
+            type="text"
+            id="occupation"
+            name="occupation"
+            placeholder="Enter your occupation"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label>Skills:</label>
+          <div class="inline-group">
+            <input type="checkbox" id="skill-html" name="skills" value="html" />
+            <label for="skill-html">HTML</label>
+            <input type="checkbox" id="skill-css" name="skills" value="css" />
+            <label for="skill-css">CSS</label>
+            <input
+              type="checkbox"
+              id="skill-js"
+              name="skills"
+              value="javascript"
+            />
+            <label for="skill-js">JavaScript</label>
+            <input
+              type="checkbox"
+              id="skill-python"
+              name="skills"
+              value="python"
+            />
+            <label for="skill-python">Python</label>
+            <input
+              type="checkbox"
+              id="skill-python"
+              name="skills"
+              value="python"
+            />
+            <label for="skill-python">All</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="profile-picture">Profile Picture:</label>
+          <input
+            type="file"
+            id="profile-picture"
+            name="profile-picture"
+            accept="image/*"
+          />
+        </div>
+
+        <button type="submit" class="btn-submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

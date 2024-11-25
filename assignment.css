@@ -1,0 +1,142 @@
+.main-body {
+  margin-top: -5px;
+  margin-left: -5px;
+}
+
+/*header part*/
+.header-part {
+  display: flex;
+  flex-wrap: wrap;
+  height: 120px;
+  background-color: rgb(65, 65, 65);
+}
+.home-div,
+.div-log-in,
+.div-sign-up {
+  align-content: center;
+  flex: 1;
+  flex-basis: 200;
+}
+.home-button,
+.log-in-button,
+.sign-up-button {
+  background-color: black;
+  color: rgb(6, 255, 6);
+  width: 80px;
+  margin-left: 80px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.home-button:hover {
+  color: black;
+  background-color: rgb(6, 255, 6);
+}
+.log-in-button:hover {
+  color: black;
+  background-color: rgb(6, 255, 6);
+}
+.sign-up-button:hover {
+  color: black;
+  background-color: rgb(6, 255, 6);
+}
+.div-search {
+  align-content: center;
+  flex: 4;
+  display: flex;
+  flex-basis: 200px;
+}
+.search-bar {
+  flex: 1;
+  border-radius: 45px;
+  height: 38px;
+  margin-top: 38px;
+  padding-left: 20px;
+  background-color: rgb(227, 206, 206);
+}
+.Search-icon {
+  width: 45px;
+}
+
+/* middle part */
+.middle-section-div {
+  display: flex;
+  height: 570px;
+  margin-bottom: 0px;
+  background-color: lightgray;
+  border: none;
+}
+.first-mid-sec {
+  width: 200px;
+  background-color: black;
+}
+.second-mid-sec {
+  width: 100%;
+  height: 570px;
+  border: none;
+}
+.div-gallery-button,
+.div-story-button,
+.div-about-button {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.div-about-button:hover {
+  color: black;
+  background-color: rgb(6, 255, 6);
+}
+.div-story-button:hover {
+  color: black;
+  background-color: rgb(6, 255, 6);
+}
+.div-form-button:hover {
+  color: black;
+  background-color: rgb(6, 255, 6);
+}
+.div-gallery-button:hover {
+  color: black;
+  background-color: rgb(6, 255, 6);
+}
+.div-form-button {
+  margin-left: 40px;
+}
+.gallery-button,
+.story-button,
+.form-button,
+.about-button {
+  background-color: black;
+  color: rgb(6, 255, 6);
+  width: 80px;
+  padding: 15px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.about-button:hover {
+  color: black;
+  background-color: rgb(6, 255, 6);
+}
+.story-button:hover {
+  color: black;
+  background-color: rgb(6, 255, 6);
+}
+.form-button:hover {
+  color: black;
+  background-color: rgb(6, 255, 6);
+}
+.gallery-button:hover {
+  color: black;
+  background-color: rgb(6, 255, 6);
+}
+.body {
+  font-weight: 600;
+  font-size: 83px;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+.footer {
+  background-color: rgb(199, 214, 219);
+  height: 80px;
+  position: static;
+  font-size: large;
+}
